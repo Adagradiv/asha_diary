@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ALL UI strings in Hindi only -->
+    
+    <!-- App Name -->
+    <string name="app_name">आशा डायरी</string>
+    
+    <!-- Common Actions -->
+    <string name="action_save">सहेजें</string>
+    <string name="action_cancel">रद्द करें</string>
+    <string name="action_confirm">पुष्टि करें</string>
+    <string name="action_delete">हटाएं</string>
+    <string name="action_edit">संपादित करें</string>
+    <string name="action_submit">सबमिट करें</string>
+    <string name="action_approve">स्वीकार करें</string>
+    <string name="action_reject">अस्वीकार करें</string>
+    <string name="action_sync">सिंक करें</string>
+    <string name="action_search">खोजें</string>
+    <string name="action_capture">कैप्चर करें</string>
+    
+    <!-- Login Screen -->
+    <string name="login_title">आशा डायरी में लॉगिन करें</string>
+    <string name="login_username">यूज़रनेम</string>
+    <string name="login_password">पासवर्ड</string>
+    <string name="login_button">लॉगिन करें</string>
+    <string name="login_error">लॉगिन विफल। कृपया पुनः प्रयास करें।</string>
+    
+    <!-- Dashboard -->
+    <string name="dashboard_title">डैशबोर्ड</string>
+    <string name="dashboard_total_beneficiaries">कुल लाभार्थी</string>
+    <string name="dashboard_pending_sync">सिंक बाकी</string>
+    <string name="dashboard_pending_duplicates">डुप्लिकेट समीक्षा बाकी</string>
+    <string name="dashboard_pending_edits">संपादन अनुरोध बाकी</string>
+    
+    <!-- Beneficiary Registration -->
+    <string name="reg_title">नया लाभार्थी पंजीकरण</string>
+    <string name="reg_name">नाम (हिंदी में)</string>
+    <string name="reg_father_husband_name">पिता/पति का नाम</string>
+    <string name="reg_gender">लिंग</string>
+    <string name="reg_gender_male">पुरुष</string>
+    <string name="reg_gender_female">महिला</string>
+    <string name="reg_gender_other">अन्य</string>
+    <string name="reg_age">आयु (वर्ष में)</string>
+    <string name="reg_dob">जन्म तिथि</string>
+    <string name="reg_village">गाँव</string>
+    <string name="reg_address">पता</string>
+    <string name="reg_mobile">मोबाइल नंबर</string>
+    <string name="reg_type">लाभार्थी प्रकार</string>
+    <string name="reg_type_pregnant">गर्भवती महिला</string>
+    <string name="reg_type_child">बच्चा</string>
+    <string name="reg_type_both">दोनों</string>
+    <string name="reg_capture_fingerprint">फिंगरप्रिंट कैप्चर करें</string>
+    <string name="reg_fingerprint_captured">फिंगरप्रिंट कैप्चर हो गया (गुणवत्ता: %1$d)</string>
+    <string name="reg_register">पंजीकृत करें</string>
+    <string name="reg_success">लाभार्थी सफलतापूर्वक पंजीकृत: %1$s</string>
+    
+    <!-- Duplicate Detection -->
+    <string name="dup_warning_title">⚠️ संभावित डुप्लिकेट मिले</string>
+    <string name="dup_warning_message">%1$d समान लाभार्थी मिले हैं। कृपया जाँचें।</string>
+    <string name="dup_score">समानता स्कोर: %1$d%%</string>
+    <string name="dup_high_confidence">बहुत ज्यादा समानता</string>
+    <string name="dup_medium_confidence">संभावित डुप्लिकेट</string>
+    <string name="dup_low_confidence">कम समानता</string>
+    <string name="dup_confirm_register">फिर भी पंजीकृत करें</string>
+    <string name="dup_cancel">रद्द करें</string>
+    
+    <!-- Edit Requests -->
+    <string name="edit_request_title">संपादन अनुरोध</string>
+    <string name="edit_field">फील्ड</string>
+    <string name="edit_current_value">वर्तमान मूल्य</string>
+    <string name="edit_new_value">नया मूल्य</string>
+    <string name="edit_reason">कारण (बोलकर बताएं)</string>
+    <string name="edit_submit">अनुरोध सबमिट करें</string>
+    <string name="edit_pending">लंबित अनुरोध</string>
+    <string name="edit_approved">स्वीकृत</string>
+    <string name="edit_rejected">अस्वीकृत</string>
+    
+    <!-- Voice Input -->
+    <string name="voice_speak_now">अभी बोलें...</string>
+    <string name="voice_listening">सुन रहा हूं...</string>
+    <string name="voice_error">आवाज़ पहचान विफल। कृपया पुनः प्रयास करें।</string>
+    <string name="voice_button_hint">बोलने के लिए दबाएं</string>
+    
+    <!-- Offline/Online Status -->
+    <string name="status_online">ऑनलाइन</string>
+    <string name="status_offline">ऑफलाइन</string>
+    <string name="status_syncing">सिंक हो रहा है...</string>
+    <string name="status_last_sync">अंतिम सिंक: %1$s</string>
+    
+    <!-- Visit Recording -->
+    <string name="visit_anc">एएनसी विज़िट</string>
+    <string name="visit_bp">बीपी जांच</string>
+    <string name="visit_blood_sugar">ब्लड शुगर</string>
+    <string name="visit_vaccination">टीकाकरण</string>
+    <string name="visit_record">विज़िट दर्ज करें</string>
+    <string name="visit_weight">वज़न (किलो)</string>
+    <string name="visit_bp_systolic">सिस्टोलिक बीपी</string>
+    <string name="visit_bp_diastolic">डायास्टोलिक बीपी</string>
+    <string name="visit_hemoglobin">हीमोग्लोबिन</string>
+    <string name="visit_advice">सलाह (बोलकर बताएं)</string>
+    
+    <!-- Errors -->
+    <string name="error_network">नेटवर्क उपलब्ध नहीं है</string>
+    <string name="error_gps">GPS लोकेशन प्राप्त नहीं हो सका</string>
+    <string name="error_required_field">यह फील्ड आवश्यक है</string>
+    <string name="error_invalid_mobile">मोबाइल नंबर गलत है</string>
+    <string name="error_sync_failed">सिंक विफल। बाद में पुनः प्रयास करें।</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">सफलतापूर्वक सहेजा गया</string>
+    <string name="success_synced">सिंक पूर्ण (%1$d आइटम)</string>
+    <string name="success_edit_submitted">संपादन अनुरोध सबमिट हो गया</string>
+    
+    <!-- Biometric -->
+    <string name="biometric_capture">फिंगरप्रिंट कैप्चर करें</string>
+    <string name="biometric_quality">गुणवत्ता: %1$d%%</string>
+    <string name="biometric_retry">पुनः कैप्चर करें</string>
+    <string name="biometric_device_not_found">Mantra डिवाइस नहीं मिला</string>
+</resources>

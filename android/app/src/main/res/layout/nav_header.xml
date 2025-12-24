@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@drawable/gradient_primary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="राम कुमार शर्मा"
+        android:textColor="@color/text_on_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_user_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="फील्ड स्टाफ"
+        android:textColor="@color/text_on_primary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_user_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="सरायामीर ब्लॉक, गोरखपुर"
+        android:textColor="@color/text_on_primary"
+        android:textSize="12sp" />
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="डैशबोर्ड" />
+
+        <item
+            android:id="@+id/nav_register_beneficiary"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="नया पंजीकरण" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="खोजें" />
+
+        <item
+            android:id="@+id/nav_record_visit"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="विज़िट दर्ज करें" />
+    </group>
+
+    <group android:id="@+id/group_admin">
+        <item
+            android:id="@+id/nav_edit_requests"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="संपादन अनुरोध" />
+
+        <item
+            android:id="@+id/nav_duplicates"
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:title="डुप्लिकेट समीक्षा" />
+    </group>
+
+    <group android:id="@+id/group_system">
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="सिंक करें" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="लॉगआउट" />
+    </group>
+</menu>
